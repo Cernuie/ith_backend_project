@@ -1,4 +1,6 @@
 import Vapor
+import Fluent
+import FluentMySQLDriver
 
 // configures your application
 public func configure(_ app: Application) throws {
@@ -7,4 +9,5 @@ public func configure(_ app: Application) throws {
 
     // register routes
     try routes(app)
+
 }
