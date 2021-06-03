@@ -9,7 +9,7 @@ public func configure(_ app: Application) throws {
 
     // register routes
     try routes(app)
-    app.databases.use(.mysql(hostname: "localhost", username: "root", password: "password", database: "itw_project"), as: .mysql)
+    app.databases.use(.mysql(hostname: "localhost", username: "alex", password: "password", database: "ith_project"), as: .mysql)
 
     // try services.register(MySQLProvider())
 

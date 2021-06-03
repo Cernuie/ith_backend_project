@@ -1,9 +1,10 @@
 import Vapor
+import Fluent
 import FluentMySQLDriver
 
 final class Users: Model {
     // Name of the table or collection.
-    static let schema = "users"
+    static let schema = "Users"
 
     // Unique identifier for the user.
     @ID(key: .id)
